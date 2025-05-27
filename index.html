@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nutrición Deportiva</title>
+  <link rel="shortcut icon" href="https://www.hsnstore.com/skin/frontend/default/hsnreborn/images/logoHSNReduced.svg" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer ></script>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">🏋️‍♂️ HSN</div>
+    <ul class="nav-links">
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Categorías</a></li>
+      <li><a href="#">Ofertas</a></li>
+      <li><a href="#">Contacto</a></li>
+    </ul>
+  </nav>
+  <header>
+    <h1>Nutrición Deportiva</h1>
+  </header>
+  
+  <main class="container">
+    <!-- Filtros -->
+    <section class="filters">
+      <h2>Categorías</h2>
+      <ul id="category-list">
+        <!-- Se llenará dinámicamente -->
+      </ul>
+    </section>
+
+    <!-- Galería de productos -->
+    <section class="products">
+      <!-- Template para cada tarjeta -->
+      <template id="product-template">
+        <article class="product-card">
+          <img class="product-image" src="" alt="">
+          <h3 class="product-name"></h3>
+          <p class="product-seller"></p>
+          <p class="product-price"></p>
+          <button class="btn-buy">Comprar</button>
+        </article>
+      </template>
+
+      <!-- Contenedor donde se pintan las cards -->
+      <div id="product-container"></div>
+    </section>
+  </main>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2025 HSN Store. Todos los derechos reservados.</p>
+    <p><a href="#">Aviso legal</a> | <a href="#">Política de privacidad</a></p>
+  </footer>
+ 
+</body>
+</html>
